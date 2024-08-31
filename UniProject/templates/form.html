@@ -1,0 +1,70 @@
+<!-- header.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stress Analyzer Through BMI</title>
+    <link rel="stylesheet" href="static/css/form.css">
+     {% load bootstrap5 %}
+     {% bootstrap_css %}
+     {% bootstrap_javascript %}
+</head>
+<body>
+   <section>
+         <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+         <img src="static/images/logo.png" alt="">
+        <h1 class="sitename">Stress Analyzer</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="./form.html">Form</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+</section><!--Header section end-->
+
+<section><!--Form start from here-->
+    <div class="form-section">
+        <div class="container">
+            <div class="loginheader">
+                <div class="text">Login</div>
+                <div class="underline"></div>
+            </div>
+            <div class="inputs">
+
+                <div class="input">
+                    <!--<img src={email_icon} alt="" />-->
+                    <input type="email" placeholder="Email Id" name=""  />
+                </div>
+                <div class="input">
+                    <!--<img src={password_icon} alt="" />-->
+                    <input type="password"  placeholder="Password" name=""  />
+                </div>
+            </div>
+            <div class="submit-container">
+                <div class="submit">
+                    Login
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
